@@ -1,0 +1,23 @@
+{
+  "name": "streams01",
+  "version": "0.0.0",
+  "description": "",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "websocket-stream": "~0.5.0",
+    "ws": "~0.4.31",
+    "express": "~3.4.8",
+    "keypress": "~0.2.1",
+    "event-stream": "~3.1.0",
+    "request": "~2.34.0",
+    "node-sphero": "git://github.com/rjrodger/node-sphero.git#1e8d023f415512e60f27d67128ee00c47d1df2ef"
+  },
+  "devDependencies": {
+    "browserify": "~3.31.2"
+  }
+}
